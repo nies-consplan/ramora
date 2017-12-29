@@ -1,0 +1,58 @@
+# brew tap
+- name: install taps of homebrew
+  homebrew_tap: tap={{ item }} state=present
+  with_items:
+    - sanemat/font
+    - caskroom/fonts
+    - wercker/wercker
+    # - homebrew/science
+
+- name: Install home brew packages
+  homebrew: name={{ item.name }} install_options={{ item.options | default() }}
+  with_items:
+    - { name: r }
+    - { name: openssl }
+    - { name: git }
+    - { name: wget }
+    - { name: curl }
+    - { name: imagemagick }
+    - { name: source-highlight }
+    - { name: mas }
+    - { name: fontforge }
+    - { name: zsh }
+    # export PATH="/usr/local/bin:$PATH" to .zshrc
+    - { name: node }
+    - { name: wercker-cli }
+    - { name: python3 }
+    # caskがインストールされた後に実行
+    # - { name: elasticsearch }
+
+# brew update
+- name: update homebrew
+  homebrew: update_homebrew=yes
+
+- name: Install homebrew cask packages
+  homebrew_cask: name={{ item }}
+  with_items:
+    - alfred
+    - atom
+    - appcleaner
+    - evernote
+    - gyazo
+    - skype
+    - docker
+    - emacs
+    - github
+    - google-chrome
+    - clipy
+    # r はbrew install している（上の方）
+    - r-app
+    - rstudio
+    - slack
+    - xquartz
+    - cd-to
+    - mactex
+    - java
+    - julia
+    # fonts
+    - font-fontawesome
