@@ -44,6 +44,8 @@
     - emacs
     - github
     - google-chrome
+    - iterm2
+    - onyx
     - clipy
     # r はbrew install している（上の方）
     - r-app
