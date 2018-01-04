@@ -64,3 +64,8 @@
     - font-ricty-diminished
     - font-source-han-code-jp
 
+# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# sudo python get-pip.py
+- name: pip
+  pip:
+    name: docker
