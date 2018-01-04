@@ -57,4 +57,10 @@
     - java
     - julia
     # fonts
+    - font-fira-code
     - font-fontawesome
+    - font-inconsolata
+    - font-inconsolata-for-powerline
+    - font-ricty-diminished
+    - font-source-han-code-jp
+
