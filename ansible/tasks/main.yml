@@ -42,6 +42,8 @@
     - skype
     - docker
     - emacs
+    # インストール後にアクティベート
+    #- endnote
     - github
     - google-chrome
     - iterm2
