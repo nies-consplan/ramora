@@ -6,6 +6,7 @@
     - caskroom/fonts
     - wercker/wercker
     # - homebrew/science
+    - osgeo/osgeo4mac
 
 - name: Install home brew packages
   homebrew: name={{ item.name }} install_options={{ item.options | default() }}
@@ -26,6 +27,11 @@
     - { name: python3 }
     # caskがインストールされた後に実行
     # - { name: elasticsearch }
+
+- name: qgis
+  homebrew:
+    name: qgis2
+    install_options: with-grass,with-saga-gis-lts
 
 # brew update
 - name: update homebrew
@@ -58,6 +64,8 @@
     - mactex
     - java
     - julia
+    # removeされた https://github.com/caskroom/homebrew-cask/pull/41883
+    # - qgis
     # fonts
     - font-fira-code
     - font-fontawesome
@@ -71,3 +79,11 @@
 - name: pip
   pip:
     name: docker
+
+- name: Install pip modules for QGIS
+  pip:
+    name="{{ item }}"
+  with_items:
+    - psycopg2
+    - jinja2
+    - pygments
