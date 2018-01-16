@@ -14,6 +14,7 @@
     - { name: r }
     - { name: openssl }
     - { name: git }
+    - { name: git-lfs }
     - { name: wget }
     - { name: curl }
     - { name: imagemagick }
