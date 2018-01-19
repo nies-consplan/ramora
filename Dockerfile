@@ -6,5 +6,7 @@ RUN apt-get install -y \
   fonts-ipaexfont
 
 RUN install2.r \
-  config docker estatapi jpmesh jpndistrict \
+  config docker estatapi ggforce hrbrthemes jpmesh jpndistrict \
   RefManageR
+
+# RUN R -e "devtools::install_github('Robinlovelace/geocompr')"
