@@ -7,6 +7,6 @@ RUN apt-get install -y \
 
 RUN install2.r \
   config docker estatapi ggforce hrbrthemes jpmesh jpndistrict \
-  RefManageR
+  RefManageR rdrop2
 
-# RUN R -e "devtools::install_github('Robinlovelace/geocompr')"
+# RUN R -e "devtools::install_github('thomasp85/patchwork')"
