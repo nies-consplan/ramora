@@ -20,6 +20,9 @@
     - { name: imagemagick }
     - { name: source-highlight }
     - { name: mas }
+    # - { name: postgresql }
+    # - { name: unixodbc }
+    # - { name: psqlodbc }
     - { name: fontforge }
     - { name: zsh }
     # export PATH="/usr/local/bin:$PATH" to .zshrc
@@ -33,6 +36,11 @@
   homebrew:
     name: qgis2
     install_options: with-grass,with-saga-gis-lts
+
+#- name: odbc
+#  homebrew:
+#    name: freetds
+#    install_options: with-unixodbc
 
 # brew update
 - name: update homebrew
