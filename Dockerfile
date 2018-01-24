@@ -6,7 +6,8 @@ RUN apt-get install -y \
   fonts-ipaexfont
 
 RUN install2.r \
-  config docker estatapi ggforce hrbrthemes jpmesh jpndistrict \
+  config docker estatapi ggforce here hrbrthemes \
+  liftr jpmesh jpndistrict \
   RefManageR rdrop2
 
 # RUN R -e "devtools::install_github('thomasp85/patchwork')"
