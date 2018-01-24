@@ -11,3 +11,4 @@ RUN install2.r \
   RefManageR rdrop2
 
 # RUN R -e "devtools::install_github('thomasp85/patchwork')"
+# RUN R -e "devtools::install_github('hadley/emo')"
