@@ -6,7 +6,7 @@ RUN apt-get install -y \
   fonts-ipaexfont
 
 RUN install2.r \
-  config docker estatapi ggforce here hrbrthemes \
+  caTools config docker estatapi ggforce here hrbrthemes \
   liftr jpmesh jpndistrict \
   RefManageR rdrop2
 
