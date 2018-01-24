@@ -1,0 +1,88 @@
+---
+title: "ramora: Quick Start Research Project"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](inst/header_logo.png)
+
+Running below code your project root directory. Then the rstudio server which mounted the local project directory will start up (`localhost:8787`).
+
+```{r, eval = FALSE, echo = TRUE}
+devtools::source_gist(id       = "56853ecab8533e033fccb35b2b6e0154",
+                      filename = "docker_container.R")
+rss_instance <- docker_quick_start(image   = "uribo/ramora",
+                                   remove  = TRUE,
+                                   detach  = FALSE)
+```
+
+This is the same process as the following code.
+
+```{r, eval = FALSE, echo = TRUE}
+image <- "uribo/ramora"
+
+docker::docker$from_env()
+rprojroot::find_rstudio_root_file()
+container_name <- basename(project_path)
+  
+mount <- list(list("bind" = paste0("/home/rstudio/", container_name),
+                     "mode" = "rw"))
+names(mount) <- project_path
+  
+rss_instance <- client$containers$run(image       = image,
+                                      volumes     = mount,
+                                      name        = container_name,
+                                      environment = list("ROOT" = "TRUE"),
+                                      ports       = list("8787/tcp" = "8787"),
+                                      remove      = TRUE,
+                                      detach      = FALSE)
+  
+rss_instance$start()
+# stop process
+# rss_instance$stop()
+```
+
+## System Components
+
+- `r emo::ji("heavy_check_mark")` Ansible
+- `r emo::ji("heavy_check_mark")` RStudio Server
+    - including `tidyverse`, `sf` etc.
+- `r emo::ji("heavy_check_mark")` pandoc
+- `r emo::ji("heavy_check_mark")` LaTeX environment
+    - Available Japanese PDF Output `r emo::ji("Japan")`
+
+## R Packages `r emo::ji("package")`
+
+### `r emo::ji("handbag")` Portability
+
+- docker
+
+### `r emo::ji("recycle")` Reproducibility
+
+- liftr
+- here
+- (remake)
+
+### `r emo::ji("floppy")` Collect Data
+
+- estatapi
+- rdrop2
+- jpmesh
+
+### `r set.seed(71); emo::ji("graph")` Visualization
+
+- ggforce
+- hrbrthemes
+
+### `r set.seed(71); emo::ji("pencil")` Writing Process Enhancement
+
+- RefManageR
+
+### `r emo::ji("gear")` Others
+
+- config
+- caTools
+- jpndistrict
