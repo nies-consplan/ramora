@@ -1,14 +1,21 @@
-FROM uribo/tiny_rocker_geospatial:latest
-MAINTAINER "Shinya Uryu" uryu.shinya@nies.go.jp
+FROM rocker/geospatial:latest
+MAINTAINER "Shinya Uryu" <uryu.shinya@nies.go.jp>
 
+# For knitr pdf output
+RUN apt-get install -y \
+  texlive-latex-base \
+  texlive-fonts-recommended \
+  texlive-fonts-extra
+
+# For JP
 RUN apt-get install -y \
   texlive-xetex \
   fonts-ipaexfont
 
 RUN install2.r \
-  caTools config docker estatapi ggforce here hrbrthemes \
-  liftr jpmesh jpndistrict \
-  RefManageR rdrop2
+  config drake here hrbrthemes \
+  liftr lwgeom RefManageR rdrop2
 
-# RUN R -e "devtools::install_github('thomasp85/patchwork')"
-# RUN R -e "devtools::install_github('hadley/emo')"
+RUN installGithub.r \
+  'thomasp85/patchwork' \
+  'hadley/emo'
