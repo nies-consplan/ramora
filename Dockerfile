@@ -1,18 +1,11 @@
 FROM rocker/geospatial:latest
 MAINTAINER "Shinya Uryu" <uryu.shinya@nies.go.jp>
 
-# For knitr pdf output
+# Enabled to non-ASCII font (especially Japanese) embed in PDF
 RUN apt-get install -y \
-  texlive-latex-base \
-  texlive-fonts-recommended \
-  texlive-fonts-extra
-
-# For JP
-RUN apt-get install -y \
-  texlive-xetex \
   fonts-ipaexfont
 
-RUN install2.r \
+RUN install2.r --error \
   config drake here hrbrthemes \
   liftr lwgeom RefManageR rdrop2
 
