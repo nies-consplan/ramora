@@ -17,6 +17,7 @@
     - { name: git-lfs }
     - { name: wget }
     - { name: curl }
+    # - { name: kubectl }
     - { name: imagemagick }
     - { name: source-highlight }
     - { name: mas }
@@ -67,6 +68,7 @@
     # r はbrew install している（上の方）
     - r-app
     - rstudio
+    - recordit
     - slack
     - xquartz
     - cd-to
