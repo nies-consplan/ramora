@@ -6,8 +6,9 @@ RUN apt-get install -y \
   fonts-ipaexfont
 
 RUN install2.r --error \
-  config drake here hrbrthemes \
-  liftr lwgeom RefManageR rdrop2
+  config drake ggforce here hrbrthemes \
+  liftr lwgeom naniar RefManageR rdrop2 \
+  skimr 
 
 RUN installGithub.r \
   'thomasp85/patchwork' \
