@@ -8,7 +8,7 @@ RUN apt-get install -y \
 RUN install2.r --error \
   config drake ggforce here hrbrthemes \
   liftr lwgeom naniar RefManageR rdrop2 \
-  skimr 
+  skimr shinyjs reprex
 
 RUN installGithub.r \
   'thomasp85/patchwork' \
