@@ -13,4 +13,4 @@ RUN install2.r --error \
 RUN installGithub.r \
   'thomasp85/patchwork' \
   'hadley/emo' \
-  'r-lib/reprex'
+  'tidyverse/reprex'
