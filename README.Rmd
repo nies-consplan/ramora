@@ -62,15 +62,18 @@ rss_instance$start()
 
 ### `r emo::ji("recycle")` Reproducibility
 
+- drake
 - liftr
-- here
-- (remake)
+- reprex
 
 ### `r emo::ji("floppy")` Collect Data
 
-- estatapi
 - rdrop2
-- jpmesh
+
+### `r emo::ji("bulb")` EDA
+
+- naniar
+- skimr
 
 ### `r set.seed(71); emo::ji("graph")` Visualization
 
@@ -84,5 +87,6 @@ rss_instance$start()
 ### `r emo::ji("gear")` Others
 
 - config
-- caTools
-- jpndistrict
+- here
+- usethis
+- whoami

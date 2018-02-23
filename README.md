@@ -60,13 +60,11 @@ R Packages 📦
 
 -   liftr
 -   here
--   (remake)
+-   reprex
 
 ### 💾 Collect Data
 
--   estatapi
 -   rdrop2
--   jpmesh
 
 ### 📈 Visualization
 
@@ -80,5 +78,5 @@ R Packages 📦
 ### ⚙️ Others
 
 -   config
--   caTools
--   jpndistrict
+-   skimr
+-   usethis
