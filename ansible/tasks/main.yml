@@ -75,6 +75,7 @@
     - mactex
     - java
     - julia
+    - visual-studio-code
     # removeされた https://github.com/caskroom/homebrew-cask/pull/41883
     # - qgis
     # fonts
