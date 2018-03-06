@@ -91,6 +91,12 @@
   pip:
     name: docker
 
+- name: Install pip modules
+  pip:
+    name="{{ item }}"
+  with_items:
+    - virtualenv
+
 - name: Install pip modules for QGIS
   pip:
     name="{{ item }}"
