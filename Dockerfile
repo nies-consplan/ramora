@@ -8,7 +8,8 @@ RUN apt-get install -y \
 RUN install2.r --error \
   config drake ggforce here hrbrthemes \
   liftr lwgeom naniar RefManageR rdrop2 \
-  skimr shinyjs usethis whoami
+  skimr shinyjs usethis whoami \
+  imager keras
 
 RUN installGithub.r \
   'thomasp85/patchwork' \
