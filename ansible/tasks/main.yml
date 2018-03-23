@@ -30,6 +30,12 @@
     - { name: node }
     - { name: wercker-cli }
     - { name: python3 }
+    # for NLP
+    - { name: mecab }
+    - { name: mecab-ipadic }
+    - { name: mecab-jumandic }
+    - { name: juman }
+    - { name: jumanpp }
     # caskがインストールされた後に実行
     # - { name: elasticsearch }
 
