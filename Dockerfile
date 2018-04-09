@@ -10,9 +10,12 @@ RUN install2.r --error \
   liftr lwgeom naniar RefManageR rdrop2 \
   skimr shinyjs usethis whoami \
   assertr \
-  imager keras
+  imager \
+  keras \
+  sealr
 
 RUN installGithub.r \
   'thomasp85/patchwork' \
   'hadley/emo' \
-  'tidyverse/reprex'
+  'tidyverse/reprex' \
+  'r-lib/roxygen2md'
