@@ -7,6 +7,8 @@ RUN set -x && \
     fonts-ipaexfont \
     libpython3.5 \
     python3-pip && \
+  : "日本語のロケールを有効にする" && \
+  localedef -f UTF-8 -i ja_JP ja_JP.UTF-8 && \
   rm -rf /var/lib/apt/lists/*
 
 RUN set -x && \
