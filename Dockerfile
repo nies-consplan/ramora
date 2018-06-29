@@ -16,7 +16,6 @@ RUN set -x && \
   install2.r --error \
     config \
     conflicted \
-    drake \
     ggforce \
     here \
     hrbrthemes \
@@ -38,4 +37,5 @@ RUN set -x && \
     'thomasp85/patchwork' \
     'hadley/emo' \
     'tidyverse/reprex' \
-    'r-lib/roxygen2md'
+    'r-lib/roxygen2md' \
+    'ropensci/drake'
