@@ -6,8 +6,10 @@ RUN set -x && \
   apt-get install -y --no-install-recommends \
     fonts-ipaexfont \
     libmagick++-dev \
-    imagemagick && \
+    imagemagick \
     libpython3.5 \
+    python3-dev \
+    python3-setuptools \
     python3-pip && \
   apt-get clean && \
   : "日本語のロケールを有効にする" && \
@@ -23,7 +25,6 @@ RUN set -x && \
     ggforce \
     here \
     hrbrthemes \
-    liftr \
     lwgeom \
     naniar \
     RefManageR \
