@@ -6,6 +6,7 @@ RUN set -x && \
   apt-get install -y --no-install-recommends \
     fonts-ipaexfont \
     libmagick++-dev \
+    libv8-3.14-dev \
     imagemagick \
     libpython3.5 \
     python3-dev \
