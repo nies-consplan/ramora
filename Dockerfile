@@ -38,6 +38,7 @@ RUN set -x && \
     assertr \
     imager \
     keras \
+    vdiffr \
     sealr && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
