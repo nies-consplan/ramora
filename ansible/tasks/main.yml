@@ -21,6 +21,7 @@
     - { name: imagemagick }
     - { name: source-highlight }
     - { name: mas }
+    - { name: udunits }
     # - { name: postgresql }
     # - { name: unixodbc }
     # - { name: psqlodbc }
@@ -36,6 +37,7 @@
     - { name: mecab-jumandic }
     - { name: juman }
     - { name: jumanpp }
+    - { name: highlight }
     # caskがインストールされた後に実行
     # - { name: elasticsearch }
 
