@@ -90,3 +90,12 @@ rss_instance$start()
 - here
 - usethis
 - whoami
+
+## How to build
+
+```bash
+cd ramora/
+docker build -t <user_name/image_name> .
+docker login
+docker push <user_name/image_name:tag>
+```
