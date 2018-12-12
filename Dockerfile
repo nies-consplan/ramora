@@ -37,11 +37,13 @@ RUN set -x && \
     colormap \
     config \
     conflicted \
+    cptcity \
     ensurer \ 
     ggforce \
     keyring \
     here \
     hrbrthemes \
+    janitor \
     lwgeom \
     naniar \
     RefManageR \
