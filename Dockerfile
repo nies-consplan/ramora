@@ -44,7 +44,6 @@ RUN set -x && \
     here \
     hrbrthemes \
     janitor \
-    lwgeom \
     naniar \
     RefManageR \
     rdrop2 \
@@ -66,5 +65,7 @@ RUN set -x && \
     'tidyverse/reprex' \
     'r-lib/roxygen2md' \
     'ropensci/drake' \
+    'r-spatial/lwgeom' \
+    'r-spatial/sf' \
     'r-spatial/stars' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
