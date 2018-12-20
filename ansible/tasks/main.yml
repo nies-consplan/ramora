@@ -27,6 +27,7 @@
     # - { name: psqlodbc }
     - { name: fontforge }
     - { name: zsh }
+    - { name: opencv }
     # export PATH="/usr/local/bin:$PATH" to .zshrc
     - { name: node }
     - { name: wercker-cli }
