@@ -25,11 +25,10 @@ RUN set -x && \
   
 RUN set -x && \
   : "rust environment" && \
-  curl -sf -L https://static.rust-lang.org/rustup.sh | sh && \
-  git clone https://github.com/rust-lang/cargo && \
-  cd cargo && \
-  cargo build --release && \
-  cargo install gifski
+  curl https://sh.rustup.rs -sSf | sh -s -- -y
+
+RUN set -x && \
+  ~/.cargo/bin/cargo install gifski
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
@@ -38,7 +37,8 @@ RUN set -x && \
     config \
     conflicted \
     cptcity \
-    ensurer \ 
+    drake \
+    ensurer \
     ggforce \
     keyring \
     here \
@@ -47,6 +47,7 @@ RUN set -x && \
     naniar \
     RefManageR \
     rdrop2 \
+    reprex \
     scico \
     skimr \
     shinyjs \
@@ -62,9 +63,7 @@ RUN set -x && \
     'thomasp85/gganimate' \ 
     'thomasp85/patchwork' \
     'hadley/emo' \
-    'tidyverse/reprex' \
     'r-lib/roxygen2md' \
-    'ropensci/drake' \
     'r-spatial/lwgeom' \
     'r-spatial/sf' \
     'r-spatial/stars' && \
