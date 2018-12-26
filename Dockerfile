@@ -29,6 +29,11 @@ RUN set -x && \
 
 RUN set -x && \
   ~/.cargo/bin/cargo install gifski
+  
+ARG GITHUB_PAT
+
+RUN set -x && \
+  echo "GITHUB_PAT=$GITHUB_PAT" >> /usr/local/lib/R/etc/Renviron
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
