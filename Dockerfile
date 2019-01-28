@@ -17,7 +17,8 @@ RUN set -x && \
     libpython3.5 \
     python3-dev \
     python3-setuptools \
-    python3-pip && \
+    python3-pip \
+    unar && \
   apt-get clean && \
   : "日本語のロケールを有効にする" && \
   localedef -f UTF-8 -i ja_JP ja_JP.UTF-8 && \

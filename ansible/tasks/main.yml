@@ -26,6 +26,7 @@
     # - { name: unixodbc }
     # - { name: psqlodbc }
     - { name: fontforge }
+    - { name: unar }
     - { name: zsh }
     - { name: opencv }
     # export PATH="/usr/local/bin:$PATH" to .zshrc
