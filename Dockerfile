@@ -39,6 +39,7 @@ RUN set -x && \
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
   install2.r --error \
+    bench \
     colormap \
     config \
     conflicted \
@@ -57,6 +58,7 @@ RUN set -x && \
     scico \
     skimr \
     shinyjs \
+    tictoc \
     usethis \
     whoami \
     assertr \

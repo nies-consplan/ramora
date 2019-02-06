@@ -19,6 +19,7 @@
     - { name: curl }
     # - { name: kubectl }
     - { name: imagemagick }
+    - { name: libxml2 }
     - { name: source-highlight }
     - { name: mas }
     - { name: udunits }
