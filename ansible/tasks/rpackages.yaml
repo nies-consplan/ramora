@@ -1,0 +1,26 @@
+- name: install R pakcages
+  cran: name={{ item }} state=present
+  with_items:
+    - bench
+    - colormap
+    - config
+    - cptcity
+    - pals
+    - drake
+    - ensurer
+    - ggforce
+    - keras
+    - keyring
+    - hrbrthemes
+    - imager
+    - janitor
+    - naniar
+    - RefManageR
+    - scico
+    - sf
+    - skimr
+    - stars
+    - tictoc
+    - tidyverse
+    - whoami
+    - vdiffr

@@ -2,5 +2,8 @@
   connection: local
   gather_facts: no
   sudo: no
+  roles:
+    - { role: yutannihilation.module-cran }
   tasks:
    - include: tasks/main.yml
+   - include: tasks/rpackages.yaml
