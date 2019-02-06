@@ -43,10 +43,10 @@
     # caskがインストールされた後に実行
     # - { name: elasticsearch }
 
-- name: qgis
-  homebrew:
-    name: qgis2
-    install_options: with-grass,with-saga-gis-lts
+#- name: qgis
+#  homebrew:
+#    name: qgis2
+#    install_options: with-grass,with-saga-gis-lts
 
 #- name: odbc
 #  homebrew:
