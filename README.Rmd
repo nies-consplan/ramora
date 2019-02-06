@@ -11,39 +11,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Running below code your project root directory. Then the rstudio server which mounted the local project directory will start up (`localhost:8787`).
 
-```{r, eval = FALSE, echo = TRUE}
-devtools::source_gist(id       = "56853ecab8533e033fccb35b2b6e0154",
-                      filename = "docker_container.R")
-rss_instance <- docker_quick_start(image   = "uribo/ramora",
-                                   remove  = TRUE,
-                                   detach  = FALSE)
+```bash
+docker pull uribo/ramora
 ```
 
-This is the same process as the following code.
+`docker run -e PASSWORD=<PASSWORD> -p 8787:8787 uribo/ramora`
 
-```{r, eval = FALSE, echo = TRUE}
-image <- "uribo/ramora"
-
-docker::docker$from_env()
-rprojroot::find_rstudio_root_file()
-container_name <- basename(project_path)
-  
-mount <- list(list("bind" = paste0("/home/rstudio/", container_name),
-                     "mode" = "rw"))
-names(mount) <- project_path
-  
-rss_instance <- client$containers$run(image       = image,
-                                      volumes     = mount,
-                                      name        = container_name,
-                                      environment = list("ROOT" = "TRUE"),
-                                      ports       = list("8787/tcp" = "8787"),
-                                      remove      = TRUE,
-                                      detach      = FALSE)
-  
-rss_instance$start()
-# stop process
-# rss_instance$stop()
-```
 
 ## System Components
 
@@ -55,10 +28,6 @@ rss_instance$start()
     - Available Japanese PDF Output `r emo::ji("Japan")`
 
 ## R Packages `r emo::ji("package")`
-
-### `r emo::ji("handbag")` Portability
-
-- docker
 
 ### `r emo::ji("recycle")` Reproducibility
 
@@ -99,3 +68,12 @@ docker build -t <user_name/image_name> .
 docker login
 docker push <user_name/image_name:tag>
 ```
+
+## Ansible
+
+```bash
+ansible-galaxy install yutannihilation.module-cran
+
+ansible-playbook -i hosts ansible/localhost.yml
+```
+

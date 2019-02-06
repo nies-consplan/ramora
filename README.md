@@ -3,80 +3,71 @@ ramora: Quick Start Research Project
 
 ![](inst/header_logo.png)
 
-Running below code your project root directory. Then the rstudio server which mounted the local project directory will start up (`localhost:8787`).
+Running below code your project root directory. Then the rstudio server
+which mounted the local project directory will start up
+(`localhost:8787`).
 
-``` r
-devtools::source_gist(id       = "56853ecab8533e033fccb35b2b6e0154",
-                      filename = "docker_container.R")
-rss_instance <- docker_quick_start(image   = "uribo/ramora",
-                                   remove  = TRUE,
-                                   detach  = FALSE)
+``` bash
+docker pull uribo/ramora
 ```
 
-This is the same process as the following code.
+`docker run -e PASSWORD=<PASSWORD> -p 8787:8787 uribo/ramora`
 
-``` r
-image <- "uribo/ramora"
+## System Components
 
-docker::docker$from_env()
-rprojroot::find_rstudio_root_file()
-container_name <- basename(project_path)
-  
-mount <- list(list("bind" = paste0("/home/rstudio/", container_name),
-                     "mode" = "rw"))
-names(mount) <- project_path
-  
-rss_instance <- client$containers$run(image       = image,
-                                      volumes     = mount,
-                                      name        = container_name,
-                                      environment = list("ROOT" = "TRUE"),
-                                      ports       = list("8787/tcp" = "8787"),
-                                      remove      = TRUE,
-                                      detach      = FALSE)
-  
-rss_instance$start()
-# stop process
-# rss_instance$stop()
-```
+  - ✔️ Ansible
+  - ✔️ RStudio Server
+      - including `tidyverse`, `sf` etc.
+  - ✔️ pandoc
+  - ✔️ LaTeX environment
+      - Available Japanese PDF Output 🇯🇵
 
-System Components
------------------
-
--   ✔️ Ansible
--   ✔️ RStudio Server
-    -   including `tidyverse`, `sf` etc.
--   ✔️ pandoc
--   ✔️ LaTeX environment
-    -   Available Japanese PDF Output 🇯🇵
-
-R Packages 📦
-------------
-
-### 👜 Portability
-
--   docker
+## R Packages 📦
 
 ### ♻️ Reproducibility
 
--   liftr
--   here
--   reprex
+  - drake
+  - liftr
+  - reprex
 
 ### 💾 Collect Data
 
--   rdrop2
+  - rdrop2
+
+### 💡 EDA
+
+  - naniar
+  - skimr
 
 ### 📈 Visualization
 
--   ggforce
--   hrbrthemes
+  - ggforce
+  - hrbrthemes
 
 ### 📝 Writing Process Enhancement
 
--   RefManageR
+  - RefManageR
 
 ### ⚙️ Others
 
--   config
--   skimr
--   usethis
+  - config
+  - here
+  - usethis
+  - whoami
+
+## How to build
+
+``` bash
+cd ramora/
+docker build -t <user_name/image_name> .
+docker login
+docker push <user_name/image_name:tag>
+```
+
+## Ansible
+
+``` bash
+ansible-galaxy install yutannihilation.module-cran
+
+ansible-playbook -i hosts ansible/localhost.yml
+```
