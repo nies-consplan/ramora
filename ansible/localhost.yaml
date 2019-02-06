@@ -5,5 +5,5 @@
   roles:
     - { role: yutannihilation.module-cran }
   tasks:
-   - include: tasks/main.yml
+   - include: tasks/main.yaml
    - include: tasks/rpackages.yaml
