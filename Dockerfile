@@ -64,7 +64,8 @@ RUN set -x && \
     assertr \
     imager \
     keras \
-    vdiffr && \
+    vdiffr \
+    visNetwork && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
     'thomasp85/gganimate' \ 
