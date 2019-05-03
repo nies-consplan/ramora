@@ -5,20 +5,29 @@
     - colormap
     - config
     - cptcity
+    - estatapi
     - pals
     - drake
     - ensurer
     - ggforce
     - keras
-    - keyring
+    - kokudosuuchi
+    # - keyring
     - hrbrthemes
     - imager
     - janitor
+    - jpmesh
+    - jpndistrict
+    - leaflet
+    - lwgeom
+    - mapdeck
     - naniar
+    - randomForest
     - RefManageR
     - scico
     - sf
     - skimr
+    - spdep
     - stars
     - tictoc
     - tidyverse
