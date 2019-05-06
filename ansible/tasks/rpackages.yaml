@@ -12,6 +12,8 @@
     - ggforce
     - keras
     - kokudosuuchi
+    - gdtools
+    - here
     # - keyring
     - hrbrthemes
     - imager

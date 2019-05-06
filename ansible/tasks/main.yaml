@@ -4,9 +4,6 @@
   with_items:
     - sanemat/font
     - caskroom/fonts
-    - wercker/wercker
-    # - homebrew/science
-    - osgeo/osgeo4mac
 
 - name: Install home brew packages
   homebrew: name={{ item.name }} install_options={{ item.options | default() }}
@@ -29,10 +26,10 @@
     - { name: fontforge }
     - { name: unar }
     - { name: zsh }
+    - { name: v8 }
     - { name: opencv }
     # export PATH="/usr/local/bin:$PATH" to .zshrc
     - { name: node }
-    - { name: wercker-cli }
     - { name: python3 }
     # for NLP
     - { name: mecab }
@@ -41,8 +38,6 @@
     - { name: juman }
     - { name: jumanpp }
     - { name: highlight }
-    # caskがインストールされた後に実行
-    # - { name: elasticsearch }
 
 #- name: qgis
 #  homebrew:
