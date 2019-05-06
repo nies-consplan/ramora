@@ -69,5 +69,5 @@ docker push <user_name/image_name:tag>
 ``` bash
 ansible-galaxy install yutannihilation.module-cran
 
-ansible-playbook -i hosts ansible/localhost.yml
+ansible-playbook -i hosts ansible/localhost.yaml
 ```
