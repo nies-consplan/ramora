@@ -1,9 +1,11 @@
 - name: install R pakcages
   cran: name={{ item }} state=present
   with_items:
+    - assertr
     - bench
     - colormap
     - config
+    - conflicted
     - cptcity
     - estatapi
     - pals
@@ -20,7 +22,9 @@
     - janitor
     - jpmesh
     - jpndistrict
+    - magick
     - leaflet
+    - lintr
     - lwgeom
     - mapdeck
     - naniar
