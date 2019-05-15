@@ -19,16 +19,20 @@
     # - keyring
     - hrbrthemes
     - imager
+    - IRkernel
     - janitor
     - jpmesh
     - jpndistrict
     - magick
+    - mapview
     - leaflet
     - lintr
     - lwgeom
     - mapdeck
     - naniar
     - randomForest
+    - plotly
+    - prettycode
     - RefManageR
     - scico
     - sf
