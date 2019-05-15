@@ -72,7 +72,7 @@
     - iterm2
     - onyx
     - clipy
-    # r はbrew install している（上の方）
+    # r はbrew install している（上の方）。ここで入れるのはGUI版
     - r-app
     - rstudio
     - recordit
@@ -99,6 +99,9 @@
   pip:
     name: docker
     name: virtualenv
+    name: jupyter
+    name: pandas
+    name: geopandas
 
 - name: Install pip modules for QGIS
   pip:
