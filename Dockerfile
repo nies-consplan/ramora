@@ -55,6 +55,7 @@ RUN set -x && \
     RefManageR \
     rdrop2 \
     reprex \
+    rnaturalearth \
     scico \
     skimr \
     shinyjs \
@@ -74,5 +75,6 @@ RUN set -x && \
     'r-lib/roxygen2md' \
     'r-spatial/lwgeom' \
     'r-spatial/sf' \
-    'r-spatial/stars' && \
+    'r-spatial/stars' \
+    'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
