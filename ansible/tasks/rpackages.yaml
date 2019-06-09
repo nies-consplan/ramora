@@ -11,6 +11,7 @@
     - pals
     - drake
     - ensurer
+    - gganimate
     - ggforce
     - keras
     - kokudosuuchi
@@ -23,23 +24,29 @@
     - janitor
     - jpmesh
     - jpndistrict
+    - kokudosuuchi
     - magick
     - mapview
     - leaflet
     - lintr
     - lwgeom
     - mapdeck
+    - mlr
     - naniar
     - randomForest
+    - pals
     - plotly
     - prettycode
     - RefManageR
+    - RSelenium
     - scico
     - sf
     - skimr
     - spdep
     - stars
     - tictoc
+    - tidymodels
+    - tidytext
     - tidyverse
     - whoami
     - vdiffr
