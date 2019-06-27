@@ -56,6 +56,7 @@ RUN set -x && \
     rdrop2 \
     reprex \
     rnaturalearth \
+    roxygen2md \
     scico \
     skimr \
     shinyjs \
@@ -72,7 +73,7 @@ RUN set -x && \
     'thomasp85/gganimate' \ 
     'thomasp85/patchwork' \
     'hadley/emo' \
-    'r-lib/roxygen2md' \
+    'tidyverse/dtplyr' \
     'r-spatial/lwgeom' \
     'r-spatial/sf' \
     'r-spatial/stars' \
