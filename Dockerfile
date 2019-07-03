@@ -40,6 +40,7 @@ RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
   install2.r --error \
     bench \
+    citr \
     colormap \
     config \
     conflicted \
