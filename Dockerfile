@@ -75,6 +75,7 @@ RUN set -x && \
     'thomasp85/patchwork' \
     'hadley/emo' \
     'tidyverse/dtplyr' \
+    'r-spatial/classInt' \
     'r-spatial/lwgeom' \
     'r-spatial/sf' \
     'r-spatial/stars' \
