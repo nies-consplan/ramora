@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.0@sha256:70c4f42c7ea231b5a534f0dd72e814daa05ef5ead724066d44451e77d76873b8
+FROM rocker/geospatial:3.6.0@sha256:c21661b182cac082ed4887629519499b060377fd69c89bb7631fcb930a87cce3
 
 # Enabled to non-ASCII font (especially Japanese) embed in PDF
 RUN set -x && \
