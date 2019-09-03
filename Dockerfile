@@ -69,6 +69,9 @@ RUN set -x && \
     keras \
     vdiffr \
     visNetwork && \
+  rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+RUN set -x && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
     'thomasp85/gganimate' \ 
