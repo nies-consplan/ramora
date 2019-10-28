@@ -41,6 +41,7 @@ RUN set -x && \
   install2.r --error \
     bench \
     citr \
+    classInt \
     colormap \
     config \
     conflicted \
@@ -52,6 +53,7 @@ RUN set -x && \
     here \
     hrbrthemes \
     janitor \
+    lwgeom \
     naniar \
     RefManageR \
     rdrop2 \
@@ -59,8 +61,10 @@ RUN set -x && \
     rnaturalearth \
     roxygen2md \
     scico \
+    sf \
     skimr \
     shinyjs \
+    stars \
     tictoc \
     usethis \
     whoami \
@@ -78,9 +82,5 @@ RUN set -x && \
     'thomasp85/patchwork' \
     'hadley/emo' \
     'tidyverse/dtplyr' \
-    'r-spatial/classInt' \
-    'r-spatial/lwgeom' \
-    'r-spatial/sf' \
-    'r-spatial/stars' \
     'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
