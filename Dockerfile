@@ -23,7 +23,7 @@ RUN set -x && \
   : "日本語のロケールを有効にする" && \
   localedef -f UTF-8 -i ja_JP ja_JP.UTF-8 && \
   rm -rf /var/lib/apt/lists/*
-  
+
 RUN set -x && \
   : "rust environment" && \
   curl https://sh.rustup.rs -sSf | sh -s -- -y
@@ -45,9 +45,11 @@ RUN set -x && \
     colormap \
     config \
     conflicted \
+    cowplot \
     cptcity \
     drake \
     ensurer \
+    gganimate \
     ggforce \
     keyring \
     here \
@@ -78,7 +80,6 @@ RUN set -x && \
 RUN set -x && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
-    'thomasp85/gganimate' \ 
     'thomasp85/patchwork' \
     'hadley/emo' \
     'tidyverse/dtplyr' \
