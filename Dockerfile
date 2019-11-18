@@ -48,6 +48,7 @@ RUN set -x && \
     cowplot \
     cptcity \
     drake \
+    dtplyr \
     ensurer \
     gganimate \
     ggforce \
@@ -82,6 +83,5 @@ RUN set -x && \
   installGithub.r \
     'thomasp85/patchwork' \
     'hadley/emo' \
-    'tidyverse/dtplyr' \
     'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
