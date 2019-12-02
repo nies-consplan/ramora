@@ -38,7 +38,7 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error \
+  install2.r --error --skipinstalled --repos 'http://mran.revolutionanalytics.com/snapshot/2019-12-02' \
     bench \
     citr \
     classInt \
@@ -58,6 +58,7 @@ RUN set -x && \
     janitor \
     lwgeom \
     naniar \
+    patchwork \
     RefManageR \
     rdrop2 \
     reprex \
@@ -81,7 +82,6 @@ RUN set -x && \
 RUN set -x && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
-    'thomasp85/patchwork' \
     'hadley/emo' \
     'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
