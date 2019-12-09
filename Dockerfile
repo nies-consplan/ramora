@@ -38,7 +38,7 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --skipinstalled --repos 'http://mran.revolutionanalytics.com/snapshot/2019-12-02' \
+  install2.r --error --skipinstalled --repos 'http://mran.revolutionanalytics.com/snapshot/2019-12-09' \
     bench \
     citr \
     classInt \
