@@ -11,7 +11,6 @@ RUN set -x && \
     libsecret-1-dev \
     libsodium-dev \
     libssl-dev \
-    libv8-3.14-dev \
     libzmq3-dev \
     imagemagick \
     libpython3.5 \
