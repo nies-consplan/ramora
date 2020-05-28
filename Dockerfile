@@ -37,50 +37,39 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --repos 'http://mran.revolutionanalytics.com/snapshot/2020-05-27' \
+  install2.r --error --repos 'http://mran.revolutionanalytics.com/snapshot/2020-05-26' \
     bench \
-    citr \
+    bit64 \
     classInt \
     colormap \
     config \
     conflicted \
     cowplot \
     cptcity \
+    data.table \
     drake \
     dtplyr \
     ensurer \
-    gganimate \
     ggforce \
-    keyring \
     here \
     hrbrthemes \
-    janitor \
     lwgeom \
     naniar \
     patchwork \
-    RefManageR \
-    rdrop2 \
     reprex \
     rnaturalearth \
     roxygen2md \
     scico \
     sf \
-    skimr \
-    shinyjs \
     stars \
     tictoc \
     usethis \
     whoami \
-    assertr \
-    imager \
-    keras \
-    vdiffr \
-    visNetwork && \
+    assertr && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 RUN set -x && \
   : "GitHub経由でのパッケージのインストール" && \
   installGithub.r \
-    'hadley/emo' \
     'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
