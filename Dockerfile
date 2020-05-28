@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.3@sha256:4abc3617f0e3fbea82258914aabb0ac6164165e03d9b4065a5e0325727eb7a0d
+FROM rocker/geospatial:4.0.0@sha256:7fe6d684d147b8381b3e4d98ef423e552a52c9f369e789535db2c4c6798b5bb3
 
 # Enabled to non-ASCII font (especially Japanese) embed in PDF
 RUN set -x && \
@@ -37,7 +37,7 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --repos 'http://mran.revolutionanalytics.com/snapshot/2020-04-13' \
+  install2.r --error --repos 'http://mran.revolutionanalytics.com/snapshot/2020-05-27' \
     bench \
     citr \
     classInt \
