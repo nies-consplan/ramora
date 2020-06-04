@@ -18,6 +18,14 @@ RUN set -x && \
     python3-setuptools \
     python3-pip \
     unar && \
+  apt-get install -y \
+    r-cran-bit64 \
+    r-cran-data.table \
+    r-cran-ggforce \
+    r-cran-lwgeom \
+    r-cran-reprex \
+    r-cran-sf \
+    r-cran-usethis && \
   apt-get clean && \
   : "日本語のロケールを有効にする" && \
   localedef -f UTF-8 -i ja_JP ja_JP.UTF-8 && \
@@ -37,35 +45,27 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --repos 'http://mran.revolutionanalytics.com/snapshot/2020-05-26' \
+  install2.r --error --ncpus -1 --repos 'http://mran.revolutionanalytics.com/snapshot/2020-06-02' \
+    assertr \
     bench \
-    bit64 \
     classInt \
     colormap \
     config \
     conflicted \
     cowplot \
     cptcity \
-    data.table \
     drake \
     dtplyr \
     ensurer \
-    ggforce \
     here \
     hrbrthemes \
-    lwgeom \
     naniar \
     patchwork \
-    reprex \
     rnaturalearth \
     roxygen2md \
     scico \
-    sf \
-    stars \
     tictoc \
-    usethis \
-    whoami \
-    assertr && \
+    whoami && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 RUN set -x && \
