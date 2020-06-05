@@ -57,10 +57,12 @@ RUN set -x && \
     drake \
     dtplyr \
     ensurer \
+    gganimate \
     here \
     hrbrthemes \
     naniar \
     patchwork \
+    rdrop2 \
     rnaturalearth \
     roxygen2md \
     scico \
