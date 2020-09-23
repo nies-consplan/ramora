@@ -17,6 +17,45 @@ docker pull uribo/ramora
 
 `docker run -e PASSWORD=<PASSWORD> -p 8787:8787 uribo/ramora`
 
+## Session Info
+
+![R](https://img.shields.io/badge/R-4.0.2-brightgreen) ![CRAN/METACRAN](https://img.shields.io/cran/v/renv)
+
+```{r, eval=FALSE, echo=FALSE}
+renv::install(c("assertr", "bench", "classInt", "colormap", 
+                "config", "conflicted", "cowplot", "cptcity", 
+                "drake", "dtplyr", "ensurer", "gganimate",
+                "here", "hrbrthemes", "naniar", "patchwork",
+                "rdrop2", "rnaturalearth", "roxygen2md",
+                "scico", "tictoc", "whoami"))
+renv::install("ropenscilabs/rnaturalearthhires")
+```
+
+```{r, include=FALSE}
+library(assertr)
+library(bench)
+library(classInt)
+library(colormap)
+library(config)
+library(conflicted)
+library(cowplot)
+library(cptcity)
+library(drake)
+library(dtplyr)
+library(ensurer)
+library(gganimate)
+library(here)
+library(hrbrthemes)
+library(naniar)
+library(patchwork)
+library(rdrop2)
+library(rnaturalearth)
+library(roxygen2md)
+library(scico)
+library(tictoc)
+library(whoami)
+```
+
 
 ## System Components
 
@@ -32,7 +71,6 @@ docker pull uribo/ramora
 ### `r emo::ji("recycle")` Reproducibility
 
 - drake
-- liftr
 - reprex
 
 ### `r emo::ji("floppy")` Collect Data
@@ -41,24 +79,35 @@ docker pull uribo/ramora
 
 ### `r emo::ji("bulb")` EDA
 
+- assertr
+- ensurer
 - naniar
 - skimr
 
 ### `r set.seed(71); emo::ji("graph")` Visualization
 
+- cowplot
 - ggforce
 - hrbrthemes
+- patchwork
+- colormap
+- cptcity
+- scico
 
 ### `r set.seed(71); emo::ji("pencil")` Writing Process Enhancement
 
-- RefManageR
+- rmarkdown
+- knitr
 
 ### `r emo::ji("gear")` Others
 
+- bench
 - config
+- conflicted
 - here
 - usethis
 - whoami
+- tictoc
 
 ## How to build
 
@@ -76,4 +125,3 @@ ansible-galaxy install yutannihilation.module-cran
 
 ansible-playbook -i hosts ansible/localhost.yaml
 ```
-
