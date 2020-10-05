@@ -2,7 +2,7 @@ name: renv_schedule_update
 
 on:
   schedule:
-    - cron:  '26 3 * * *'
+    - cron:  '26 4 * * *'
 
 jobs:
   renv_schedule_update:
@@ -23,7 +23,10 @@ jobs:
           Rscript -e "install.packages('renv')"
       - name: Package Update Check
         run: |-
-          Rscript -e "renv::restore(confirm = FALSE); renv::update(prompt = FALSE); renv::snapshot(prompt = FALSE)"
+          Rscript -e "Sys.setenv('GITHUB_PAT' = '${{secrets.GH_PAT}}'); 
+          renv::restore(confirm = FALSE); 
+          renv::update(prompt = FALSE); 
+          renv::snapshot(prompt = FALSE)"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.4.0
         with:
