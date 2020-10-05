@@ -2,7 +2,7 @@ name: renv_schedule_update
 
 on:
   schedule:
-    - cron:  '48 * * * *'
+    - cron:  '3 * * * *'
 
 jobs:
   renv_schedule_update:
@@ -18,6 +18,9 @@ jobs:
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
+      - name: Install renv
+        run: |-
+          Rscript -e "install.packages('renv')"
       - name: Package Update Check
         run: |-
           Rscript -e "renv::restore(confirm = FALSE); renv::update(prompt = FALSE); renv::snapshot(prompt = FALSE)"
