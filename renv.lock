@@ -424,10 +424,10 @@
     },
     "drake": {
       "Package": "drake",
-      "Version": "7.12.5",
+      "Version": "7.12.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "916fd9a49057e14743188e5adc49e506"
+      "Hash": "7591b4ae5ecb21f7b2e86a0a24d2f56f"
     },
     "dtplyr": {
       "Package": "dtplyr",
