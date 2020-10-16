@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.0.2",
+    "Version": "4.0.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -548,10 +548,10 @@
     },
     "gganimate": {
       "Package": "gganimate",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1a34307f6fca1bc7391586860ea0aa55"
+      "Hash": "729026083340f1076e622886c5b337b7"
     },
     "ggplot2": {
       "Package": "ggplot2",
