@@ -18,6 +18,9 @@ jobs:
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
+      - name: Install dependencies
+        run: |
+          brew install v8
       - name: Install renv
         run: |-
           Rscript -e "install.packages('renv')"
