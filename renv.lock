@@ -340,7 +340,7 @@
       "Package": "config",
       "Version": "0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "76268942467fa8ba171e9aa34203ee2a"
     },
     "conflicted": {
@@ -919,7 +919,7 @@
       "Package": "progressr",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "307c0643c2166795cbd93b436e558d18"
     },
     "promises": {
