@@ -24,8 +24,8 @@ docker pull uribo/ramora
 ```{r, eval=FALSE, echo=FALSE}
 renv::install(c("assertr", "bench", "classInt", "colormap", 
                 "config", "conflicted", "cowplot", "cptcity", 
-                "drake", "dtplyr", "ensurer", "gganimate",
-                "here", "hrbrthemes", "naniar", "patchwork",
+                "drake", "dtplyr", "ensurer", "furrr", "gganimate",
+                "here", "hrbrthemes", "naniar", "patchwork", "progressr",
                 "rdrop2", "rnaturalearth", "roxygen2md",
                 "scico", "tictoc", "whoami"))
 renv::install("ropenscilabs/rnaturalearthhires")
@@ -43,11 +43,13 @@ library(cptcity)
 library(drake)
 library(dtplyr)
 library(ensurer)
+library(furrr)
 library(gganimate)
 library(here)
 library(hrbrthemes)
 library(naniar)
 library(patchwork)
+library(progressr)
 library(rdrop2)
 library(rnaturalearth)
 library(roxygen2md)
