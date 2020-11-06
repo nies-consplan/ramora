@@ -340,7 +340,7 @@
       "Package": "config",
       "Version": "0.3",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "76268942467fa8ba171e9aa34203ee2a"
     },
     "conflicted": {
@@ -366,10 +366,10 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.2.3",
+      "Version": "0.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f9df472593124299aef98fba2c96dfd3"
+      "Hash": "ba66e5a750d39067d888aa7af797fed2"
     },
     "cptcity": {
       "Package": "cptcity",
@@ -919,7 +919,7 @@
       "Package": "progressr",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "307c0643c2166795cbd93b436e558d18"
     },
     "promises": {
