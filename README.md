@@ -7,18 +7,18 @@ Running below code your project root directory. Then the rstudio server
 which mounted the local project directory will start up
 (`localhost:8787`).
 
-    docker pull uribo/ramora
+``` bash
+docker pull uribo/ramora
+```
 
 `docker run -e PASSWORD=<PASSWORD> -p 8787:8787 uribo/ramora`
 
-Session Info
-------------
+## Session Info
 
-![R](https://img.shields.io/badge/R-4.0.2-brightgreen)
+![R](https://img.shields.io/badge/R-4.0.3-brightgreen)
 ![CRAN/METACRAN](https://img.shields.io/cran/v/renv)
 
-System Components
------------------
+## System Components
 
 -   ✔️ Ansible
 -   ✔️ RStudio Server
@@ -27,8 +27,7 @@ System Components
 -   ✔️ LaTeX environment
     -   Available Japanese PDF Output 🇯🇵
 
-R Packages 📦
-------------
+## R Packages 📦
 
 ### ♻️ Reproducibility
 
@@ -71,17 +70,19 @@ R Packages 📦
 -   whoami
 -   tictoc
 
-How to build
-------------
+## How to build
 
-    cd ramora/
-    docker build -t <user_name/image_name> .
-    docker login
-    docker push <user_name/image_name:tag>
+``` bash
+cd ramora/
+docker build -t <user_name/image_name> .
+docker login
+docker push <user_name/image_name:tag>
+```
 
-Ansible
--------
+## Ansible
 
-    ansible-galaxy install yutannihilation.module-cran
+``` bash
+ansible-galaxy install yutannihilation.module-cran
 
-    ansible-playbook -i hosts ansible/localhost.yaml
+ansible-playbook -i hosts ansible/localhost.yaml
+```

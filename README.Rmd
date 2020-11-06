@@ -19,7 +19,7 @@ docker pull uribo/ramora
 
 ## Session Info
 
-![R](https://img.shields.io/badge/R-4.0.2-brightgreen) ![CRAN/METACRAN](https://img.shields.io/cran/v/renv)
+![R](https://img.shields.io/badge/R-4.0.3-brightgreen) ![CRAN/METACRAN](https://img.shields.io/cran/v/renv)
 
 ```{r, eval=FALSE, echo=FALSE}
 renv::install(c("assertr", "bench", "classInt", "colormap", 
