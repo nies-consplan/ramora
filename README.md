@@ -78,11 +78,3 @@ docker build -t <user_name/image_name>:<YYYYMMDD> .
 docker login
 docker push <user_name/image_name:YYYYMMDD>
 ```
-
-## Ansible
-
-``` bash
-ansible-galaxy install yutannihilation.module-cran
-
-ansible-playbook -i hosts ansible/localhost.yaml
-```

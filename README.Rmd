@@ -117,13 +117,5 @@ library(whoami)
 cd ramora/
 docker build -t <user_name/image_name>:<YYYYMMDD> .
 docker login
-docker push <user_name/image_name:tag>
-```
-
-## Ansible
-
-```bash
-ansible-galaxy install yutannihilation.module-cran
-
-ansible-playbook -i hosts ansible/localhost.yaml
+docker push <user_name/image_name:YYYYMMDD>
 ```

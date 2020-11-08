@@ -1,9 +1,0 @@
-- hosts: localhost
-  connection: local
-  gather_facts: no
-  sudo: no
-  roles:
-    - { role: yutannihilation.module-cran }
-  tasks:
-   - include: tasks/main.yaml
-   - include: tasks/rpackages.yaml
