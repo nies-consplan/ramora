@@ -74,9 +74,9 @@ docker pull uribo/ramora
 
 ``` bash
 cd ramora/
-docker build -t <user_name/image_name> .
+docker build -t <user_name/image_name>:<YYYYMMDD> .
 docker login
-docker push <user_name/image_name:tag>
+docker push <user_name/image_name:YYYYMMDD>
 ```
 
 ## Ansible
