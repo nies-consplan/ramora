@@ -26,7 +26,7 @@ renv::install(c("assertr", "bench", "classInt", "colormap",
                 "config", "conflicted", "cowplot", "cptcity", 
                 "drake", "dtplyr", "ensurer", "furrr", "gganimate",
                 "here", "hrbrthemes", "naniar", "patchwork", "progressr",
-                "rdrop2", "rnaturalearth", "roxygen2md",
+                "rdrop2", "reticulate", "rnaturalearth", "roxygen2md",
                 "scico", "tictoc", "whoami"))
 renv::install("ropenscilabs/rnaturalearthhires")
 ```
@@ -51,6 +51,7 @@ library(naniar)
 library(patchwork)
 library(progressr)
 library(rdrop2)
+library(reticulate)
 library(rnaturalearth)
 library(roxygen2md)
 library(scico)

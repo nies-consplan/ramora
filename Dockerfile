@@ -45,7 +45,7 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --ncpus -1 --repos 'https://cran.microsoft.com/snapshot/2020-11-08/' \
+  install2.r --error --ncpus -1 --repos 'https://cran.microsoft.com/snapshot/2020-11-09/' \
     assertr \
     bench \
     classInt \
@@ -65,6 +65,7 @@ RUN set -x && \
     patchwork \
     progressr \
     rdrop2 \
+    reticulate \
     rnaturalearth \
     roxygen2md \
     scico \
@@ -77,3 +78,10 @@ RUN set -x && \
   installGithub.r \
     'ropenscilabs/rnaturalearthhires' && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+USER rstudio
+
+RUN set -x && \
+  Rscript -e 'reticulate::install_miniconda(path = "/home/rstudio/.local/share/r-miniconda")'
+
+USER root
