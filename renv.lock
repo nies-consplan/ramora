@@ -340,7 +340,7 @@
       "Package": "config",
       "Version": "0.3",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "76268942467fa8ba171e9aa34203ee2a"
     },
     "conflicted": {
@@ -919,7 +919,7 @@
       "Package": "progressr",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "307c0643c2166795cbd93b436e558d18"
     },
     "promises": {
@@ -1050,10 +1050,10 @@
     },
     "rstudioapi": {
       "Package": "rstudioapi",
-      "Version": "0.12",
+      "Version": "0.13",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7849949afe010c2bdaffe05ccff4c731"
+      "Hash": "06c85365a03fdaf699966cc1d3cf53ea"
     },
     "rversions": {
       "Package": "rversions",
