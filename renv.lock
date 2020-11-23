@@ -609,10 +609,10 @@
     },
     "globals": {
       "Package": "globals",
-      "Version": "0.13.1",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3eb799a11cf9d28314691e44a2eaaa14"
+      "Hash": "eca8023ed5ca6372479ebb9b3207f5ae"
     },
     "glue": {
       "Package": "glue",
