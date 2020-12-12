@@ -931,10 +931,10 @@
     },
     "progressr": {
       "Package": "progressr",
-      "Version": "0.6.0",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "307c0643c2166795cbd93b436e558d18"
+      "Hash": "679b0700adc3be59606d703ccbdab1a8"
     },
     "promises": {
       "Package": "promises",
