@@ -45,7 +45,7 @@ RUN set -x && \
 
 RUN set -x && \
   : "CRAN経由でのパッケージのインストール" && \
-  install2.r --error --ncpus -1 --repos 'https://cran.microsoft.com/snapshot/2020-12-07/' \
+  install2.r --error --ncpus -1 --repos 'https://cran.microsoft.com/snapshot/2020-12-22/' \
     assertr \
     bench \
     classInt \
