@@ -266,12 +266,12 @@
       "Version": "1.1.0",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
       "RemoteUsername": "r-lib",
       "RemoteRepo": "brio",
       "RemoteRef": "master",
-      "RemoteSha": "e62eb3f73a2cccac79e65c35fecaba18d9c4c59b",
-      "Hash": "f0ecfa7765cee12ea9ed7c62c115622b"
+      "RemoteSha": "9c981c0ba8515aaf6d6ff5a52a7f3d104159af51",
+      "RemoteHost": "api.github.com",
+      "Hash": "8a98cc60c4ccfd8ec30c94ffa3bf83bd"
     },
     "callr": {
       "Package": "callr",
@@ -450,10 +450,10 @@
     },
     "drake": {
       "Package": "drake",
-      "Version": "7.12.7",
+      "Version": "7.13.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9c958b9f23453b9855abd2eb4b5ba4b9"
+      "Hash": "9ce73e9cddf61b00231af2b2dc8ee4f9"
     },
     "dtplyr": {
       "Package": "dtplyr",
@@ -847,10 +847,10 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.22.0",
+      "Version": "1.23.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c8cd9aa518ef4b08bc10aa17b548c27c"
+      "Hash": "2f841d7915986a8fd995ab4ec105dd1b"
     },
     "patchwork": {
       "Package": "patchwork",
