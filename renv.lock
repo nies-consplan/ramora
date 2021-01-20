@@ -263,15 +263,15 @@
     },
     "brio": {
       "Package": "brio",
-      "Version": "1.1.0",
+      "Version": "1.1.0.9000",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteUsername": "r-lib",
       "RemoteRepo": "brio",
       "RemoteRef": "master",
-      "RemoteSha": "9c981c0ba8515aaf6d6ff5a52a7f3d104159af51",
+      "RemoteSha": "f1d6329bc6261ad72489550bc21b53ef271b5062",
       "RemoteHost": "api.github.com",
-      "Hash": "8a98cc60c4ccfd8ec30c94ffa3bf83bd"
+      "Hash": "e0ad5d264e643eed220c062a23e79aa1"
     },
     "callr": {
       "Package": "callr",
