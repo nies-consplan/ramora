@@ -263,15 +263,15 @@
     },
     "brio": {
       "Package": "brio",
-      "Version": "1.1.0.9000",
+      "Version": "1.1.1.9000",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteUsername": "r-lib",
       "RemoteRepo": "brio",
       "RemoteRef": "master",
-      "RemoteSha": "f1d6329bc6261ad72489550bc21b53ef271b5062",
+      "RemoteSha": "2cf72bb77ad55c758b4a140112916ddc23f00b59",
       "RemoteHost": "api.github.com",
-      "Hash": "e0ad5d264e643eed220c062a23e79aa1"
+      "Hash": "62a7595e4aa0c78ab82b94470336572a"
     },
     "callr": {
       "Package": "callr",
@@ -1183,10 +1183,10 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.28",
+      "Version": "0.29",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ff73961a77fba606fbf944dc3468e5b9"
+      "Hash": "f0b0ba735febac9a8344253ae6fa93f5"
     },
     "tweenr": {
       "Package": "tweenr",
