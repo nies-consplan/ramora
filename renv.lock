@@ -109,10 +109,10 @@
     },
     "assertive.base": {
       "Package": "assertive.base",
-      "Version": "0.0-7",
+      "Version": "0.0-8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f7101b3bd59fee4c738711610b652595"
+      "Hash": "eccf21050ae9ebde17c2041b8ca1ba06"
     },
     "assertive.code": {
       "Package": "assertive.code",
@@ -282,10 +282,10 @@
     },
     "class": {
       "Package": "class",
-      "Version": "7.3-17",
+      "Version": "7.3-18",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9267f5dab59a4ef44229858a142bded1"
+      "Hash": "15ef288688a6919417ade6251deea2b3"
     },
     "classInt": {
       "Package": "classInt",
@@ -679,10 +679,10 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.1",
+      "Version": "0.5.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4d5452ff42a254e861282931190d052a"
+      "Hash": "af2c2531e55df5cf230c4b5444fc973c"
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
