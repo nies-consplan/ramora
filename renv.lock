@@ -214,10 +214,10 @@
     },
     "assertr": {
       "Package": "assertr",
-      "Version": "2.7",
+      "Version": "2.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "00c92738b9dfc39ad7ade471b546b196"
+      "Hash": "38c61c51fa8311904551d58895da2858"
     },
     "assertthat": {
       "Package": "assertthat",
@@ -588,10 +588,10 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "1.0.2",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0ebdadbb2b742cd230cb3ec7fdf5898a"
+      "Hash": "c637d042178a0f65f9703c8d7f2be996"
     },
     "gganimate": {
       "Package": "gganimate",
