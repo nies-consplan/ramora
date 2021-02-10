@@ -1015,10 +1015,15 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.12.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5c0cdb37f063c58cdab3c7e9fbb8bd2c"
+      "Version": "0.12.5-50",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "master",
+      "RemoteSha": "ede65d6252d369d2368f5e1f4cc95b891a18ec4b",
+      "Hash": "ef4eebbc0eac5eb5f9290cae875c0745"
     },
     "reticulate": {
       "Package": "reticulate",
