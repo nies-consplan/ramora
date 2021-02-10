@@ -109,10 +109,10 @@
     },
     "assertive.base": {
       "Package": "assertive.base",
-      "Version": "0.0-8",
+      "Version": "0.0-9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eccf21050ae9ebde17c2041b8ca1ba06"
+      "Hash": "b13489d382536049f19cd7b205fbc12a"
     },
     "assertive.code": {
       "Package": "assertive.code",
@@ -275,10 +275,10 @@
     },
     "cachem": {
       "Package": "cachem",
-      "Version": "1.0.1",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3259868ce0a3fab9456de8635cc34728"
+      "Hash": "803b5d36ec15fe3314905749a5619767"
     },
     "callr": {
       "Package": "callr",
@@ -387,10 +387,10 @@
     },
     "crayon": {
       "Package": "crayon",
-      "Version": "1.4.0",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fcff9126a4928a96c94e3df85b024899"
+      "Hash": "e75525c55c70e5f4f78c9960a4b402e9"
     },
     "credentials": {
       "Package": "credentials",
@@ -450,17 +450,17 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.3",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "365f8c3650ab95582e600f160fd5fb88"
+      "Hash": "01c82e3b053eb7660a8ace8d932265b8"
     },
     "drake": {
       "Package": "drake",
-      "Version": "7.13.0",
+      "Version": "7.13.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9ce73e9cddf61b00231af2b2dc8ee4f9"
+      "Hash": "fbd3ca7f23e75f996f39a9d086823459"
     },
     "dtplyr": {
       "Package": "dtplyr",
@@ -847,10 +847,10 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-151",
+      "Version": "3.1-152",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "42c8ba2b6a32a6bf0874e93e3bd86a43"
+      "Hash": "35de1ce639f20b5e10f7f46260730c65"
     },
     "openssl": {
       "Package": "openssl",
@@ -1160,10 +1160,10 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "0.3.2",
+      "Version": "1.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "046e821d454edb3722192f588f4d7884"
+      "Hash": "6e899d7c097698d50ec87b1d8e65f246"
     },
     "testthat": {
       "Package": "testthat",
