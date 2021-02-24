@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.0.3",
+    "Version": "4.0.4",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -303,10 +303,10 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "2.3.0",
+      "Version": "2.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "26fb4f0871c8e5b84d77f6dc22f2ee0a"
+      "Hash": "3e3f28efcadfda442cd18651fbcbbecf"
     },
     "clipr": {
       "Package": "clipr",
@@ -415,10 +415,10 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.13.6",
+      "Version": "1.14.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "813fa8857aaa949b243e2e0b4abb8592"
+      "Hash": "d1b8b1a821ee564a3515fa6c6d5c52dc"
     },
     "desc": {
       "Package": "desc",
@@ -469,10 +469,10 @@
     },
     "dtplyr": {
       "Package": "dtplyr",
-      "Version": "1.0.1",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "be6b351032f660488e5b19c06927e3a0"
+      "Hash": "1e14e4c5b2814de5225312394bc316da"
     },
     "e1071": {
       "Package": "e1071",
@@ -880,10 +880,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.4.7",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3b3dd89b2ee115a8b54e93a34cd546b4"
+      "Hash": "39a778e4e487ded8b1bf5bb617c567b3"
     },
     "pkgbuild": {
       "Package": "pkgbuild",
@@ -901,10 +901,10 @@
     },
     "pkgload": {
       "Package": "pkgload",
-      "Version": "1.1.0",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b6b150cd4709e0c0c9b5d51ac4376282"
+      "Hash": "cb57de933545960a86f03513e4bd2911"
     },
     "plyr": {
       "Package": "plyr",
@@ -1020,15 +1020,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.12.5-62",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteUsername": "rstudio",
-      "RemoteRepo": "renv",
-      "RemoteRef": "master",
-      "RemoteSha": "5714f1ed592f58ba4a9032b5539bd819a8c1a54a",
-      "RemoteHost": "api.github.com",
-      "Hash": "21ec9de6bf71213fc6a4a0afdf4d491a"
+      "Version": "0.13.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9f10d9db5b50400c348920c5c603385e"
     },
     "reticulate": {
       "Package": "reticulate",
@@ -1053,10 +1048,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.6",
+      "Version": "2.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bc4bac38960b446c183957bfd563e763"
+      "Hash": "edbf4cb1aefae783fd8d3a008ae51943"
     },
     "rnaturalearth": {
       "Package": "rnaturalearth",
