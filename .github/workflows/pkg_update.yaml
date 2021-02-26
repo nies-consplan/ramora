@@ -13,7 +13,8 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - name: Install dependencies
         run: |
-          brew install v8
+          brew install v8;
+          brew install udunits
       - name: Install renv
         run: |-
           Rscript -e "install.packages('renv')"
