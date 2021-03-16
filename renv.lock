@@ -476,10 +476,10 @@
     },
     "e1071": {
       "Package": "e1071",
-      "Version": "1.7-4",
+      "Version": "1.7-5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7e9462e3e3e565f51fbec181dfcab890"
+      "Hash": "2c50ae93196755aa2aadb17545368f4f"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -961,6 +961,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "4ab2c43adb4d4699cf3690acd378d75d"
+    },
+    "proxy": {
+      "Package": "proxy",
+      "Version": "0.4-25",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "29a4dd5b440af584aed8c448d8eefb6e"
     },
     "ps": {
       "Package": "ps",
