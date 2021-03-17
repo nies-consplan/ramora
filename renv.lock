@@ -1230,10 +1230,10 @@
     },
     "units": {
       "Package": "units",
-      "Version": "0.7-0",
+      "Version": "0.7-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "57404a7676b139cdcc3e2530508c864e"
+      "Hash": "1eb71bc3895bf5a047485c16758c4862"
     },
     "usethis": {
       "Package": "usethis",
