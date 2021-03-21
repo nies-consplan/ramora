@@ -476,10 +476,10 @@
     },
     "e1071": {
       "Package": "e1071",
-      "Version": "1.7-5",
+      "Version": "1.7-6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2c50ae93196755aa2aadb17545368f4f"
+      "Hash": "9a374a10e3c0dbf1a0e207af019bfcea"
     },
     "ellipsis": {
       "Package": "ellipsis",
@@ -1027,10 +1027,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.13.0",
+      "Version": "0.13.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9f10d9db5b50400c348920c5c603385e"
+      "Hash": "be02499761baab60d58b808efd08c3fc"
     },
     "reticulate": {
       "Package": "reticulate",
@@ -1125,10 +1125,10 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "0.9-7",
+      "Version": "0.9-8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9d6831c4c002137d99be6b946ac9da07"
+      "Hash": "d82215b501772c9faadb4dcd71395c7d"
     },
     "sp": {
       "Package": "sp",
