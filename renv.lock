@@ -436,10 +436,10 @@
     },
     "diffobj": {
       "Package": "diffobj",
-      "Version": "0.3.3",
+      "Version": "0.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "55fae7ec1418d2a47bd552571673d1af"
+      "Hash": "feb5b7455eba422a2c110bb89852e6a3"
     },
     "digest": {
       "Package": "digest",
@@ -449,9 +449,9 @@
       "RemoteUsername": "eddelbuettel",
       "RemoteRepo": "digest",
       "RemoteRef": "master",
-      "RemoteSha": "dbf2104d3f608b5f1d56f7946512a4aa4593f403",
+      "RemoteSha": "19c6c4e15abc85a99be9cfd721fb74120d401f76",
       "RemoteHost": "api.github.com",
-      "Hash": "ad60d1bb852838c18478c75ebc581d7e"
+      "Hash": "0ed22c550b0567a42fd40241b9e8b7b2"
     },
     "dplyr": {
       "Package": "dplyr",
