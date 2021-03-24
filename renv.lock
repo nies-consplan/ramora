@@ -449,9 +449,9 @@
       "RemoteUsername": "eddelbuettel",
       "RemoteRepo": "digest",
       "RemoteRef": "master",
-      "RemoteSha": "19c6c4e15abc85a99be9cfd721fb74120d401f76",
+      "RemoteSha": "b153411b696cc238e9da8396ad33dd4d8b2167ad",
       "RemoteHost": "api.github.com",
-      "Hash": "0ed22c550b0567a42fd40241b9e8b7b2"
+      "Hash": "6d090f7924e3e7c4d9101fb04313100d"
     },
     "dplyr": {
       "Package": "dplyr",
@@ -929,10 +929,10 @@
     },
     "processx": {
       "Package": "processx",
-      "Version": "3.4.5",
+      "Version": "3.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "22aab6098cb14edd0a5973a8438b569b"
+      "Hash": "605f57cffff369dabc0b6c344e9b4492"
     },
     "profmem": {
       "Package": "profmem",
@@ -1216,10 +1216,10 @@
     },
     "tweenr": {
       "Package": "tweenr",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fc77eb5297507cccfa3349a606061030"
+      "Hash": "6cc663f970a529dbf776f11d5bcd1a2e"
     },
     "txtq": {
       "Package": "txtq",
