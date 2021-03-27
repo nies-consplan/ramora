@@ -449,9 +449,9 @@
       "RemoteUsername": "eddelbuettel",
       "RemoteRepo": "digest",
       "RemoteRef": "master",
-      "RemoteSha": "b153411b696cc238e9da8396ad33dd4d8b2167ad",
+      "RemoteSha": "5ee3cd4b7d3a2539c0bec8c357356c0b57171ce6",
       "RemoteHost": "api.github.com",
-      "Hash": "6d090f7924e3e7c4d9101fb04313100d"
+      "Hash": "5ffad3ecff8458b897f8ff7ccbf9fafb"
     },
     "dplyr": {
       "Package": "dplyr",
