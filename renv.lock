@@ -1223,10 +1223,10 @@
     },
     "txtq": {
       "Package": "txtq",
-      "Version": "0.2.3",
+      "Version": "0.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "38a421b8003ba704b5b8471e6c3762a7"
+      "Hash": "47bc241ac3efaa6b75109c00ad708448"
     },
     "units": {
       "Package": "units",
