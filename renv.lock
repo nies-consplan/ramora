@@ -275,10 +275,10 @@
     },
     "callr": {
       "Package": "callr",
-      "Version": "3.6.0",
+      "Version": "3.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "25da2c6fba6a13b5da94e37acdb3f532"
+      "Hash": "461aa75a11ce2400245190ef5d3995df"
     },
     "class": {
       "Package": "class",
