@@ -441,10 +441,10 @@
     },
     "drake": {
       "Package": "drake",
-      "Version": "7.13.1",
+      "Version": "7.13.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fbd3ca7f23e75f996f39a9d086823459"
+      "Hash": "9523eb77617d78849d0b5d402163a7e9"
     },
     "dtplyr": {
       "Package": "dtplyr",
