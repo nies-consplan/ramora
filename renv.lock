@@ -81,10 +81,10 @@
     },
     "V8": {
       "Package": "V8",
-      "Version": "3.4.0",
+      "Version": "3.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8c5e8c58ff4fc8dfc67e24985005159b"
+      "Hash": "89650a70bebd4af21876d06a15898dcc"
     },
     "askpass": {
       "Package": "askpass",
