@@ -1132,10 +1132,10 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6e899d7c097698d50ec87b1d8e65f246"
+      "Hash": "f2e17ba09737e2e7e2ec40fc1f9b6e08"
     },
     "testthat": {
       "Package": "testthat",
@@ -1223,10 +1223,10 @@
     },
     "viridis": {
       "Package": "viridis",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fc8caaf9fddeaa87fb7d0ee1890a3bc2"
+      "Hash": "424d1285b7372d39806abb19467e4df4"
     },
     "viridisLite": {
       "Package": "viridisLite",
