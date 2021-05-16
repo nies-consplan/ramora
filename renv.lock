@@ -268,10 +268,10 @@
     },
     "cachem": {
       "Package": "cachem",
-      "Version": "1.0.4",
+      "Version": "1.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2703a46dcabfb902f10060b2bca9f708"
+      "Hash": "5346f76a33eb7417812c270b04a5581b"
     },
     "callr": {
       "Package": "callr",
@@ -810,10 +810,10 @@
     },
     "naniar": {
       "Package": "naniar",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7aa61e5aa2c4c09905885a10a14534c9"
+      "Hash": "4fffc0d02071a6150c1016fb8766224c"
     },
     "nlme": {
       "Package": "nlme",
@@ -821,6 +821,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "35de1ce639f20b5e10f7f46260730c65"
+    },
+    "norm": {
+      "Package": "norm",
+      "Version": "1.0-9.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "302631c84303c4910692fdc66273744e"
     },
     "openssl": {
       "Package": "openssl",
@@ -1272,10 +1279,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.22",
+      "Version": "0.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eab2f8ba53809c321813e72ecbbd19ba"
+      "Hash": "791a57f43c887111490851dcd166d344"
     },
     "xml2": {
       "Package": "xml2",
