@@ -838,10 +838,10 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.25.0",
+      "Version": "1.26.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bc53006c11a08ba955ccbf85b586875f"
+      "Hash": "08925887608f7086dd7522933ff43a93"
     },
     "patchwork": {
       "Package": "patchwork",
@@ -929,10 +929,10 @@
     },
     "progressr": {
       "Package": "progressr",
-      "Version": "0.7.0",
+      "Version": "0.8.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "679b0700adc3be59606d703ccbdab1a8"
+      "Hash": "a8742f0e454e8a40bc269920535e0afb"
     },
     "proxy": {
       "Package": "proxy",
@@ -1074,6 +1074,13 @@
       "Repository": "CRAN",
       "Hash": "f88fab00907b312f8b23ec13e2d437cb"
     },
+    "s2": {
+      "Package": "s2",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "02f7d4821a7ca841bbfdf3b7176ce6cf"
+    },
     "scales": {
       "Package": "scales",
       "Version": "1.1.1",
@@ -1097,10 +1104,10 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "0.9-8",
+      "Version": "1.0-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d82215b501772c9faadb4dcd71395c7d"
+      "Hash": "800804f284ba87cb28cf24fc47fc4e02"
     },
     "sp": {
       "Package": "sp",
@@ -1276,6 +1283,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "ad03909b44677f930fa156d47d7a3aeb"
+    },
+    "wk": {
+      "Package": "wk",
+      "Version": "0.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f7e41a60d8b19cf505ffa06bf578c7bd"
     },
     "xfun": {
       "Package": "xfun",
