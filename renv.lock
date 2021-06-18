@@ -428,9 +428,9 @@
       "RemoteUsername": "eddelbuettel",
       "RemoteRepo": "digest",
       "RemoteRef": "master",
-      "RemoteSha": "5ee3cd4b7d3a2539c0bec8c357356c0b57171ce6",
+      "RemoteSha": "1717cadcd2a298c7dec1a53d6f1e0cc76a441f16",
       "RemoteHost": "api.github.com",
-      "Hash": "5ffad3ecff8458b897f8ff7ccbf9fafb"
+      "Hash": "966d1fa489f500f3684c8c986d7280e2"
     },
     "dplyr": {
       "Package": "dplyr",
@@ -1076,10 +1076,10 @@
     },
     "s2": {
       "Package": "s2",
-      "Version": "1.0.5",
+      "Version": "1.0.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "02f7d4821a7ca841bbfdf3b7176ce6cf"
+      "Hash": "fb018249cc4b7ae7147d511fd33ddf82"
     },
     "scales": {
       "Package": "scales",
