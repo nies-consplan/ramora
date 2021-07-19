@@ -256,15 +256,15 @@
     },
     "brio": {
       "Package": "brio",
-      "Version": "1.1.0",
+      "Version": "1.1.1.9000",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
       "RemoteUsername": "r-lib",
       "RemoteRepo": "brio",
       "RemoteRef": "master",
-      "RemoteSha": "e62eb3f73a2cccac79e65c35fecaba18d9c4c59b",
-      "Hash": "f0ecfa7765cee12ea9ed7c62c115622b"
+      "RemoteSha": "2cf72bb77ad55c758b4a140112916ddc23f00b59",
+      "RemoteHost": "api.github.com",
+      "Hash": "62a7595e4aa0c78ab82b94470336572a"
     },
     "cachem": {
       "Package": "cachem",
@@ -296,16 +296,16 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.0.0",
+      "Version": "3.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "096829b701eec2d2b4538be63de97e75"
+      "Hash": "e3ae5d68dea0c55a12ea12a9fda02e61"
     },
     "clipr": {
       "Package": "clipr",
       "Version": "0.7.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Hash": "ebaa97ac99cc2daf04e77eecc7b781d7"
     },
     "codetools": {
@@ -700,10 +700,10 @@
     },
     "isoband": {
       "Package": "isoband",
-      "Version": "0.2.4",
+      "Version": "0.2.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b2008df40fb297e3fef135c7e8eeec1a"
+      "Hash": "7ab57a6de7f48a8dc84910d1eca42883"
     },
     "jsonlite": {
       "Package": "jsonlite",
@@ -880,6 +880,13 @@
       "Repository": "CRAN",
       "Hash": "ec0e5ab4e5f851f6ef32cd1d1984957f"
     },
+    "png": {
+      "Package": "png",
+      "Version": "0.1-7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "03b7076c234cb3331288919983326c55"
+    },
     "praise": {
       "Package": "praise",
       "Version": "1.0.0",
@@ -991,6 +998,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "079cb1f03ff972b30401ed05623cbe92"
+    },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.20",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "30ab0ea8c8d3dd16a3fa06903449bbfb"
     },
     "rex": {
       "Package": "rex",
@@ -1106,10 +1120,10 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.6.2",
+      "Version": "1.7.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9df5e6f9a7fa11b84adf0429961de66a"
+      "Hash": "7943cfae120c77a255025e5f63856532"
     },
     "stringr": {
       "Package": "stringr",
@@ -1267,10 +1281,10 @@
     },
     "wk": {
       "Package": "wk",
-      "Version": "0.4.1",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f7e41a60d8b19cf505ffa06bf578c7bd"
+      "Hash": "60e191a866c5649a8f58a458f5e60edf"
     },
     "xfun": {
       "Package": "xfun",
