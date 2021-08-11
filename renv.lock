@@ -980,10 +980,10 @@
     },
     "readr": {
       "Package": "readr",
-      "Version": "2.0.0",
+      "Version": "2.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "849038f0839134ab35e719a9820005a6"
+      "Hash": "34807ea4fb5900386ddef904eef8bdb8"
     },
     "rematch2": {
       "Package": "rematch2",
