@@ -712,6 +712,13 @@
       "Repository": "CRAN",
       "Hash": "7ab57a6de7f48a8dc84910d1eca42883"
     },
+    "jquerylib": {
+      "Package": "jquerylib",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5aab57a3bd297eee1c1d862735972182"
+    },
     "jsonlite": {
       "Package": "jsonlite",
       "Version": "1.7.2",
@@ -1001,10 +1008,10 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.20",
+      "Version": "1.21",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "30ab0ea8c8d3dd16a3fa06903449bbfb"
+      "Hash": "2f124a8ba98af8e99ac7f29347adae50"
     },
     "rex": {
       "Package": "rex",
@@ -1022,10 +1029,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.10",
+      "Version": "2.11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1fb097f233ee98968f8e5d0bcd42df6d"
+      "Hash": "320017b52d05a943981272b295750388"
     },
     "rnaturalearth": {
       "Package": "rnaturalearth",
@@ -1260,17 +1267,17 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.5.4",
+      "Version": "1.5.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1a23013f39e67bb57cbda6f4ddde5470"
+      "Hash": "9c3b3a3f947c7936cea7485349247e5b"
     },
     "waldo": {
       "Package": "waldo",
-      "Version": "0.3.0",
+      "Version": "0.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "312b264fae22fdba83b7a74187a24da8"
+      "Hash": "ad8cfff5694ac5b3c354f8f2044bd976"
     },
     "whisker": {
       "Package": "whisker",
@@ -1302,10 +1309,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.25",
+      "Version": "0.26",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "853d45ffff0a9af1e0af017cd359f75e"
+      "Hash": "a270216f7ffda25e53298293046d1d05"
     },
     "xml2": {
       "Package": "xml2",
