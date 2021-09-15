@@ -868,10 +868,10 @@
     },
     "pkgload": {
       "Package": "pkgload",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "463642747f81879e6752485aefb831cf"
+      "Hash": "53139eedf68b98eecd5289664969c3f2"
     },
     "plyr": {
       "Package": "plyr",
