@@ -1008,10 +1008,10 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.21",
+      "Version": "1.22",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2f124a8ba98af8e99ac7f29347adae50"
+      "Hash": "b34a8bb69005168078d1d546a53912b2"
     },
     "rex": {
       "Package": "rex",
