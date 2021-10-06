@@ -422,10 +422,10 @@
     },
     "diffobj": {
       "Package": "diffobj",
-      "Version": "0.3.4",
+      "Version": "0.3.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "feb5b7455eba422a2c110bb89852e6a3"
+      "Hash": "bcaa8b95f8d7d01a5dedfd959ce88ab8"
     },
     "digest": {
       "Package": "digest",
@@ -791,10 +791,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-37",
+      "Version": "1.8-38",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "42ee1ee3259845fd07819f58022a3532"
+      "Hash": "be3c61ffbb1e3d3b3df214d192ac5444"
     },
     "mime": {
       "Package": "mime",
@@ -1127,10 +1127,10 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.7.4",
+      "Version": "1.7.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ebaccb577da50829a3bb1b8296f318a5"
+      "Hash": "cd50dc9b449de3d3b47cdc9976886999"
     },
     "stringr": {
       "Package": "stringr",
@@ -1155,10 +1155,10 @@
     },
     "testthat": {
       "Package": "testthat",
-      "Version": "3.0.4",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "575216c9946ca70016c3ffb9c31709ba"
+      "Hash": "89e55ebe4f5ddd7f43f0f2bc6d96c950"
     },
     "tibble": {
       "Package": "tibble",
