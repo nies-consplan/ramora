@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.1.1",
+    "Version": "4.1.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -1099,10 +1099,10 @@
     },
     "sessioninfo": {
       "Package": "sessioninfo",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4fa10d9aacf76ddf2889dd8baed6bc7b"
+      "Hash": "19ab8539771d727754c178f2ef892615"
     },
     "sf": {
       "Package": "sf",
