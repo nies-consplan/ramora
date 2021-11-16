@@ -74,10 +74,10 @@
     },
     "V8": {
       "Package": "V8",
-      "Version": "3.5.0",
+      "Version": "3.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6fd3c4f293ec96b0bbb7b88b89fecf6d"
+      "Hash": "075e000b3f9f5eb05f22e3d7bef9f016"
     },
     "askpass": {
       "Package": "askpass",
@@ -588,10 +588,10 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "1.4.2",
+      "Version": "1.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "88765e4d319707aac2bd0f7679c2c51c"
+      "Hash": "3a3f29a74f8bd85ed8d53ab039b18bcd"
     },
     "gganimate": {
       "Package": "gganimate",
@@ -980,10 +980,10 @@
     },
     "readr": {
       "Package": "readr",
-      "Version": "2.0.2",
+      "Version": "2.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7cb2c3ecfbc2c6786221d2c0c1f6ed68"
+      "Hash": "6c825746f32a68f4d8c40f94da5b1ac5"
     },
     "rematch2": {
       "Package": "rematch2",
@@ -1267,10 +1267,10 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.5.5",
+      "Version": "1.5.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9c3b3a3f947c7936cea7485349247e5b"
+      "Hash": "0af818392e60673cd8968ab9119c30a7"
     },
     "waldo": {
       "Package": "waldo",
