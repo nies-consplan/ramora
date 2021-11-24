@@ -214,10 +214,10 @@
     },
     "backports": {
       "Package": "backports",
-      "Version": "1.3.0",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "194ad71f8ed59393272a0c4be2eac215"
+      "Hash": "00c7752ce37466d4a74774bcca1a507c"
     },
     "base64enc": {
       "Package": "base64enc",
@@ -693,10 +693,10 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "1.2.8",
+      "Version": "1.2.9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ac8a4f2b6daaa3e46890c72a0012d34e"
+      "Hash": "66abc5ba63fe0543b3d7c5ec73b4230f"
     },
     "ini": {
       "Package": "ini",
@@ -840,10 +840,10 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.28.1",
+      "Version": "1.29.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5300c9fc71841550bdca64d39e82af0e"
+      "Hash": "b5f399c9ce96977e22ef32c20b6cfe87"
     },
     "patchwork": {
       "Package": "patchwork",
