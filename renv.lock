@@ -728,10 +728,10 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.36",
+      "Version": "1.37",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "46344b93f8854714cdf476433a59ed10"
+      "Hash": "a4ec675eb332a33fe7b7fe26f70e1f98"
     },
     "labeling": {
       "Package": "labeling",
@@ -840,10 +840,10 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.29.0",
+      "Version": "1.30.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b5f399c9ce96977e22ef32c20b6cfe87"
+      "Hash": "67db13907a9cea89c118cf82d448799f"
     },
     "patchwork": {
       "Package": "patchwork",
