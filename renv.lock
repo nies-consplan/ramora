@@ -1311,15 +1311,16 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.6.4",
+      "Version": "1.6.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "60200b6aa32314ac457d3efbb5ccbd98",
+      "Hash": "464a3e015331eeb8efd1d239cad5128d",
       "Requirements": [
         "cli",
         "crayon",
         "ellipsis",
         "fansi",
+        "glue",
         "lifecycle",
         "rlang",
         "utf8",
@@ -2141,10 +2142,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.2.1",
+      "Version": "2.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2826c5d9efb0a88f657c7a679c7106db",
+      "Hash": "4597f73aad7d32c2913ec33a345f900b",
       "Requirements": []
     },
     "zip": {
