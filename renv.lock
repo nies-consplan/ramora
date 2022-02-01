@@ -885,10 +885,10 @@
     },
     "generics": {
       "Package": "generics",
-      "Version": "0.1.1",
+      "Version": "0.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3f6bcfb0ee5d671d9fd1893d2faa79cb",
+      "Hash": "177475892cf4a55865868527654a7741",
       "Requirements": []
     },
     "gert": {
