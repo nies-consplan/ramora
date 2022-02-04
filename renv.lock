@@ -1311,10 +1311,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.6.5",
+      "Version": "1.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "464a3e015331eeb8efd1d239cad5128d",
+      "Hash": "51dfc97e1b7069e9f7e6f83f3589c22e",
       "Requirements": [
         "cli",
         "crayon",
@@ -1591,10 +1591,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.0.0",
+      "Version": "1.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ec923a35ba44bc86fbf95dacaccf65da",
+      "Hash": "3bf0219f19d9f5b3c682acbb3546a151",
       "Requirements": []
     },
     "rmarkdown": {
@@ -1868,10 +1868,10 @@
     },
     "tidyr": {
       "Package": "tidyr",
-      "Version": "1.1.4",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c8fbdbd9fcac223d6c6fe8e406f368e1",
+      "Hash": "d8b95b7fee945d7da6888cf7eb71a49c",
       "Requirements": [
         "cpp11",
         "dplyr",
