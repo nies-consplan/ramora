@@ -2141,10 +2141,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.2.2",
+      "Version": "2.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4597f73aad7d32c2913ec33a345f900b",
+      "Hash": "84c6e30ea1adddaebd4b33d6c5cb5e65",
       "Requirements": []
     },
     "zip": {
